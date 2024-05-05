@@ -10,16 +10,16 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
         
-        Worker worker1 = new Worker("Marek", 5500, 1, "21-01-2023", "Spawacz");
-        Worker worker2 = new Worker("Pawel", 4000, 2, "23-03-2023", "Lakiernik");
-        Worker worker3 = new Worker("Maciek", 3500, 3, "15-04-2023", "Recepcjonista");
-        Worker worker4 = new Worker("Marcel", 4900, 4, "19-05-2023", "Detailer");
-        Manager manager1 = new Manager("Antoni", 7000, 5, "25-03-2022", "Manager");
+        Worker worker1 = new Worker("Dorian", 2500, 1, "21-01-2023", "Ochroniarz");
+        Worker worker2 = new Worker("Robert", 3400, 2, "23-03-2023", "Sprzątacz");
+        Worker worker3 = new Worker("Artur", 2100, 3, "15-04-2023", "Dozorca");
+        Worker worker4 = new Worker("Tomasz", 3200, 4, "19-05-2023", "Recepcjonista");
+        Manager manager1 = new Manager("Bonifacy", 3000, 5, "25-03-2022", "Manager");
         Worker worker5 = new Worker("Dominik", 4500, 3, "19-07-2022", "Magazynier"); 
-        Worker worker6 = new Worker("Marysia", 3100, 3, "12-07-2022", "Sprzataczka"); 
+        Worker worker6 = new Worker("Marysia", 3100, 3, "12-07-2022", "Konserwator"); 
         Manager manager2 = new Manager("Kuba", 6500, 5, "09-08-2023", "Project Manager"); 
         Manager manager3 = new Manager("Janusz", 11000, 5, "29-09-2020", "Head Manager"); 
-
+       
         List<Employee> employees = new ArrayList<>();
         employees.add(worker1);
         employees.add(worker2);
